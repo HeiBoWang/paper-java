@@ -1,0 +1,15 @@
+
+# 服务器配置
+server:
+  port: 8080
+  servlet:
+    context-path: /ai
+
+# 数据库配置
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 123456
+    url: localhost:3306/user_growth_graph
